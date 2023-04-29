@@ -59,7 +59,7 @@ df.to_csv(csv_buffer, index=False)
 
 # # Define the S3 bucket name and the file key
 bucket_name = 'weclouds3example'
-file_key = '/'
+file_key = 'job.csv'
 
 # # Initialize the S3 client
 s3_client = boto3.client('s3')

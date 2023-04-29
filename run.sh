@@ -27,10 +27,9 @@ PRODUCT_USERNAME=`whoami`
 filenametime1=$(date +"%m%d%Y%H%M%S")
 filenametime2=$(date +"%Y-%m-%d %H:%M:%S")
 
-export BASE_PATH="/home/weclouddata/linux"
-export SCRIPTS_FOLDER="/home/ec2-user/wecloud"
+export SCRIPTS_FOLDER="/home/ec2-user/python-cloud"
 
-export LOGDIR='/home/ec2-user/wecloud/log'
+export LOGDIR='/home/ec2-user/python-cloud/log'
 
 
 export SCRIPT='script'
